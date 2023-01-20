@@ -1,0 +1,5 @@
+[build.environment]
+  NODE_VERSION = "16"
+[build]
+  publish = "packages/foo/.vitepress/dist"
+  command = "pnpm build-foo"
