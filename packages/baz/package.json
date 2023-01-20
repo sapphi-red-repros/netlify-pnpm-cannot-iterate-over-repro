@@ -1,7 +1,0 @@
-{
-  "name": "baz",
-  "private": true,
-  "dependencies": {
-    "duplicated": "link:./duplicated"
-  }
-}

@@ -8,17 +8,11 @@ importers:
     devDependencies:
       pnpm: 7.25.0
 
-  packages/bar:
-    specifiers:
-      duplicated: link:./duplicated
-    dependencies:
-      duplicated: link:duplicated
+  packages/bar1/duplicated:
+    specifiers: {}
 
-  packages/baz:
-    specifiers:
-      duplicated: link:./duplicated
-    dependencies:
-      duplicated: link:duplicated
+  packages/bar2/duplicated:
+    specifiers: {}
 
   packages/foo:
     specifiers:
