@@ -8,6 +8,18 @@ importers:
     devDependencies:
       pnpm: 7.25.0
 
+  packages/bar:
+    specifiers:
+      duplicated: link:./duplicated
+    dependencies:
+      duplicated: link:duplicated
+
+  packages/baz:
+    specifiers:
+      duplicated: link:./duplicated
+    dependencies:
+      duplicated: link:duplicated
+
   packages/foo:
     specifiers:
       vitepress: ^1.0.0-alpha.36
