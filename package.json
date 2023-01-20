@@ -4,5 +4,8 @@
   "scripts": {
     "build-foo": "pnpm --filter='./packages/foo' run build"
   },
-  "packageManager": "pnpm@7.25.0"
+  "packageManager": "pnpm@7.25.0",
+  "devDependencies": {
+    "pnpm": "7.25.0"
+  }
 }
