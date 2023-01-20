@@ -1,8 +1,10 @@
 {
   "name": "monorepo",
   "private": true,
-  "scripts": {
-    "build-foo": "pnpm --filter='./packages/foo' run build"
-  },
-  "packageManager": "pnpm@7.25.0"
+  "packageManager": "npm@8.19.2",
+  "workspaces": [
+    "packages/bar1/duplicated",
+    "packages/bar2/duplicated",
+    "packages/foo"
+  ]
 }
