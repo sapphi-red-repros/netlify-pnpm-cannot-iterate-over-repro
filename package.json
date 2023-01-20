@@ -1,7 +1,7 @@
 {
   "name": "monorepo",
   "private": true,
-  "packageManager": "npm@8.19.2",
+  "packageManager": "yarn@3.3.1",
   "workspaces": [
     "packages/bar1/duplicated",
     "packages/bar2/duplicated",
