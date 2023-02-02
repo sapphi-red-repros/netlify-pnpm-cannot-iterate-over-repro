@@ -4,5 +4,8 @@
   "scripts": {
     "build-foo": "pnpm --filter='./packages/foo' run build"
   },
-  "packageManager": "pnpm@7.25.0"
+  "packageManager": "pnpm@7.25.0",
+  "devDependencies": {
+    "@netlify/build-info": "^6.2.1"
+  }
 }
